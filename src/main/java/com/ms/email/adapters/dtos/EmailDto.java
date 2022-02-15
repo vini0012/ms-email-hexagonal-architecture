@@ -1,4 +1,4 @@
-package com.ms.email.dtos;
+package com.ms.email.adapters.dtos;
 
 import lombok.Data;
 
@@ -24,4 +24,5 @@ public class EmailDto {
 
     @NotBlank
     private String text;
+
 }
